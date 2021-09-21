@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 sh 'sh script.sh'
-                sh 'mvn --version''
+                sh 'mvn --version'
             }
         }
     }
